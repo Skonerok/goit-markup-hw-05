@@ -269,8 +269,32 @@ flex-basis: calc((100% - 30px) / 4);
   gap: 30px;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .what-card {
   flex-basis: calc((100% - 30px *2) / 3);
+}
+
+.overlay-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+    height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-text {
+  font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 27px;
 }
 
 /* TEAM SECTION */
